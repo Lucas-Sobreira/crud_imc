@@ -52,8 +52,6 @@ Uma das principais vantagens de trabalhar com o SQLAlchemy é que ele é compat�
 
 Além disso, ele realiza a sanitização dos dados, evitando ataques de SQL Injection.
 
-![imagem](assets/sqlinjection.jpeg)
-
 Outro ponto, é que você pode trabalhar com métodos nativos do Python, como por exemplo o filter, que é muito utilizado para fazer filtros em listas. Isso facilita muito a nossa vida, pois não precisamos aprender uma nova linguagem para fazer a comunicação com o banco de dados. Quem tiver familidade com Pandas, vai se sentir em casa.
 
 ### Pydantic
