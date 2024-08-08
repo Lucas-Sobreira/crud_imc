@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "web-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Lucas-Sobreira <lucas-andrade2011@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+sqlalchemy = "^2.0.32"
+pydantic = {extras = ["email"], version = "^2.8.2"}
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+streamlit = "^1.37.1"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
